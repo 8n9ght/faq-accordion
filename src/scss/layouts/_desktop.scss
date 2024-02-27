@@ -1,0 +1,13 @@
+@media screen and (min-width: 1440px) {
+    .faq{
+        width: 35%;
+        &__card{
+            &__header:hover {
+                cursor: pointer;
+            } 
+            &__header:hover .faq__card__header__title {
+                color: hsl(281, 83%, 54%);
+            }
+        }
+    }
+}

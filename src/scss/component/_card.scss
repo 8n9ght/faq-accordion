@@ -1,0 +1,39 @@
+.faq{
+    width: 80%;
+    min-height: 65%;
+    border-radius: .5rem;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    &__header{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        &__img{
+            @include icon;
+        }
+    }
+    &__card{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        &__header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__title{
+                width: 80%;
+            }
+            &__img{
+                @include icon
+            }
+        }
+        &__line{
+            height: .1rem;
+            background: hsl(275, 100%, 97%);
+            width: 100ù;
+        }
+    }
+}

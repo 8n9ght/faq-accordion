@@ -1,0 +1,33 @@
+@font-face {
+    font-family: worksans_bold;
+    src: url('../../public/fonts/WorkSans-Bold.ttf');
+}
+@font-face {
+    font-family: worksans_italic;
+    src: url('../../public/fonts/WorkSans-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: worksans;
+    src: url('../../public/fonts/WorkSans-Regular.ttf');
+}
+@font-face {
+    font-family: worksans_semibold;
+    src: url('../../public/fonts/WorkSans-SemiBold.ttf');
+}
+
+h1{
+    font-family: worksans_bold;
+    color: hsl(292, 42%, 14%);
+}
+
+h2, h3, h4{
+    font-family: worksans_semibold;
+    font-size: 1rem;
+    color: hsl(292, 42%, 14%);
+}
+
+p{
+    font-family: worksans;
+    font-size: 16px;
+    color: hsl(292, 16%, 49%);
+}
